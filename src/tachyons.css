@@ -30,6 +30,7 @@
 
 /* Modules */
 @import './_box-sizing';
+@import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
 @import './_background-position';
