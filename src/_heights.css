@@ -60,8 +60,8 @@
 
 /* String Properties */
 
-.h-auto {     height: auto; }
-.h-inherit {  height: inherit; }
+.h-auto {    height: auto; }
+.h-inherit { height: inherit; }
 
 @media (--breakpoint-not-small) {
   .h1-ns {  height: var(--height-1); }
