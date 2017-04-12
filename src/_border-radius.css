@@ -29,7 +29,7 @@
   .br2 {     border-radius: var(--border-radius-2); }
   .br3 {     border-radius: var(--border-radius-3); }
   .br4 {     border-radius: var(--border-radius-4); }
-  .br-100 {  border-radius: 100%; }
+  .br-100 {  border-radius: var(--border-radius-circle); }
   .br-pill { border-radius: var(--border-radius-pill); }
   .br--bottom {
       border-top-left-radius: 0;
