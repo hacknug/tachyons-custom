@@ -1,8 +1,3 @@
-/* Variables */
-
-:root {
-}
-
 /*
    SPACING
    Docs: http://tachyons.io/docs/layout/spacing/
@@ -37,7 +32,6 @@
      -l  = large
 
 */
-
 
 .pa0 { padding: var(--spacing-none); }
 .pa1 { padding: var(--spacing-extra-small); }

@@ -32,6 +32,7 @@
 @import './_box-sizing';
 @import './_aspect-ratios';
 @import './_images';
+@import './_background-overlays';
 @import './_background-size';
 @import './_background-position';
 @import './_outlines';
@@ -65,6 +66,7 @@
 @import './_rotations';
 @import './_skins';
 @import './_skins-pseudo';
+@import './_svg-skins';
 @import './_spacing';
 @import './_negative-margins';
 @import './_tables';

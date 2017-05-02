@@ -105,6 +105,7 @@
   --white: #fff;
 
   --transparent: transparent;
+  --current: currentColor;
 
   --black-90: rgba(0,0,0,.9);
   --black-80: rgba(0,0,0,.8);
