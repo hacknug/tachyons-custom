@@ -25,6 +25,7 @@
      5 = 5th step in spacing scale
      6 = 6th step in spacing scale
      7 = 7th step in spacing scale
+     a = auto (only for margin base)
 
    Media Query Extensions:
      -ns = not-small
@@ -160,6 +161,7 @@
 .ma5 { margin: var(--spacing-extra-large); }
 .ma6 { margin: var(--spacing-extra-extra-large); }
 .ma7 { margin: var(--spacing-extra-extra-extra-large); }
+.maa { margin: auto; }
 
 .ml0 { margin-left: var(--spacing-none); }
 .ml1 { margin-left: var(--spacing-extra-small); }
@@ -169,6 +171,7 @@
 .ml5 { margin-left: var(--spacing-extra-large); }
 .ml6 { margin-left: var(--spacing-extra-extra-large); }
 .ml7 { margin-left: var(--spacing-extra-extra-extra-large); }
+.mla { margin-left: auto; }
 
 .mr0 { margin-right: var(--spacing-none); }
 .mr1 { margin-right: var(--spacing-extra-small); }
@@ -178,6 +181,7 @@
 .mr5 { margin-right: var(--spacing-extra-large); }
 .mr6 { margin-right: var(--spacing-extra-extra-large); }
 .mr7 { margin-right: var(--spacing-extra-extra-extra-large); }
+.mra { margin-right: auto; }
 
 .mb0 { margin-bottom: var(--spacing-none); }
 .mb1 { margin-bottom: var(--spacing-extra-small); }
@@ -187,6 +191,7 @@
 .mb5 { margin-bottom: var(--spacing-extra-large); }
 .mb6 { margin-bottom: var(--spacing-extra-extra-large); }
 .mb7 { margin-bottom: var(--spacing-extra-extra-extra-large); }
+.mba { margin-bottom: auto; }
 
 .mt0 { margin-top: var(--spacing-none); }
 .mt1 { margin-top: var(--spacing-extra-small); }
@@ -196,6 +201,7 @@
 .mt5 { margin-top: var(--spacing-extra-large); }
 .mt6 { margin-top: var(--spacing-extra-extra-large); }
 .mt7 { margin-top: var(--spacing-extra-extra-extra-large); }
+.mta { margin-top: auto; }
 
 .mv0 {
   margin-top: var(--spacing-none);
@@ -229,6 +235,10 @@
   margin-top: var(--spacing-extra-extra-extra-large);
   margin-bottom: var(--spacing-extra-extra-extra-large);
 }
+.mva {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .mh0 {
   margin-left: var(--spacing-none);
@@ -261,6 +271,10 @@
 .mh7 {
   margin-left: var(--spacing-extra-extra-extra-large);
   margin-right: var(--spacing-extra-extra-extra-large);
+}
+.mha {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (--breakpoint-not-small) {
@@ -382,6 +396,7 @@
   .ma5-ns { margin: var(--spacing-extra-large); }
   .ma6-ns { margin: var(--spacing-extra-extra-large); }
   .ma7-ns { margin: var(--spacing-extra-extra-extra-large); }
+  .maa-ns { margin: auto; }
 
   .ml0-ns { margin-left: var(--spacing-none); }
   .ml1-ns { margin-left: var(--spacing-extra-small); }
@@ -391,6 +406,7 @@
   .ml5-ns { margin-left: var(--spacing-extra-large); }
   .ml6-ns { margin-left: var(--spacing-extra-extra-large); }
   .ml7-ns { margin-left: var(--spacing-extra-extra-extra-large); }
+  .mla-ns { margin-left: auto; }
 
   .mr0-ns { margin-right: var(--spacing-none); }
   .mr1-ns { margin-right: var(--spacing-extra-small); }
@@ -400,6 +416,7 @@
   .mr5-ns { margin-right: var(--spacing-extra-large); }
   .mr6-ns { margin-right: var(--spacing-extra-extra-large); }
   .mr7-ns { margin-right: var(--spacing-extra-extra-extra-large); }
+  .mra-ns { margin-right: auto; }
 
   .mb0-ns { margin-bottom: var(--spacing-none); }
   .mb1-ns { margin-bottom: var(--spacing-extra-small); }
@@ -409,6 +426,7 @@
   .mb5-ns { margin-bottom: var(--spacing-extra-large); }
   .mb6-ns { margin-bottom: var(--spacing-extra-extra-large); }
   .mb7-ns { margin-bottom: var(--spacing-extra-extra-extra-large); }
+  .mba-ns { margin-bottom: auto; }
 
   .mt0-ns { margin-top: var(--spacing-none); }
   .mt1-ns { margin-top: var(--spacing-extra-small); }
@@ -418,6 +436,7 @@
   .mt5-ns { margin-top: var(--spacing-extra-large); }
   .mt6-ns { margin-top: var(--spacing-extra-extra-large); }
   .mt7-ns { margin-top: var(--spacing-extra-extra-extra-large); }
+  .mta-ns { margin-top: auto; }
 
   .mv0-ns {
     margin-top: var(--spacing-none);
@@ -451,6 +470,10 @@
     margin-top: var(--spacing-extra-extra-extra-large);
     margin-bottom: var(--spacing-extra-extra-extra-large);
   }
+  .mva-ns {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 
   .mh0-ns {
     margin-left: var(--spacing-none);
@@ -483,6 +506,10 @@
   .mh7-ns {
     margin-left: var(--spacing-extra-extra-extra-large);
     margin-right: var(--spacing-extra-extra-extra-large);
+  }
+  .mha-ns {
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -607,6 +634,7 @@
   .ma5-m { margin: var(--spacing-extra-large); }
   .ma6-m { margin: var(--spacing-extra-extra-large); }
   .ma7-m { margin: var(--spacing-extra-extra-extra-large); }
+  .maa-m { margin: auto; }
 
   .ml0-m { margin-left: var(--spacing-none); }
   .ml1-m { margin-left: var(--spacing-extra-small); }
@@ -616,6 +644,7 @@
   .ml5-m { margin-left: var(--spacing-extra-large); }
   .ml6-m { margin-left: var(--spacing-extra-extra-large); }
   .ml7-m { margin-left: var(--spacing-extra-extra-extra-large); }
+  .mla-m { margin-left: auto; }
 
   .mr0-m { margin-right: var(--spacing-none); }
   .mr1-m { margin-right: var(--spacing-extra-small); }
@@ -625,6 +654,7 @@
   .mr5-m { margin-right: var(--spacing-extra-large); }
   .mr6-m { margin-right: var(--spacing-extra-extra-large); }
   .mr7-m { margin-right: var(--spacing-extra-extra-extra-large); }
+  .mra-m { margin-right: auto; }
 
   .mb0-m { margin-bottom: var(--spacing-none); }
   .mb1-m { margin-bottom: var(--spacing-extra-small); }
@@ -634,6 +664,7 @@
   .mb5-m { margin-bottom: var(--spacing-extra-large); }
   .mb6-m { margin-bottom: var(--spacing-extra-extra-large); }
   .mb7-m { margin-bottom: var(--spacing-extra-extra-extra-large); }
+  .mba-m { margin-bottom: auto; }
 
   .mt0-m { margin-top: var(--spacing-none); }
   .mt1-m { margin-top: var(--spacing-extra-small); }
@@ -643,6 +674,7 @@
   .mt5-m { margin-top: var(--spacing-extra-large); }
   .mt6-m { margin-top: var(--spacing-extra-extra-large); }
   .mt7-m { margin-top: var(--spacing-extra-extra-extra-large); }
+  .mta-m { margin-top: auto; }
 
   .mv0-m {
     margin-top: var(--spacing-none);
@@ -676,6 +708,10 @@
     margin-top: var(--spacing-extra-extra-extra-large);
     margin-bottom: var(--spacing-extra-extra-extra-large);
   }
+  .mva-m {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .mh0-m {
     margin-left: var(--spacing-none);
@@ -708,6 +744,10 @@
   .mh7-m {
     margin-left: var(--spacing-extra-extra-extra-large);
     margin-right: var(--spacing-extra-extra-extra-large);
+  }
+  .mha-m {
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -832,6 +872,7 @@
   .ma5-l { margin: var(--spacing-extra-large); }
   .ma6-l { margin: var(--spacing-extra-extra-large); }
   .ma7-l { margin: var(--spacing-extra-extra-extra-large); }
+  .maa-l { margin: auto; }
 
   .ml0-l { margin-left: var(--spacing-none); }
   .ml1-l { margin-left: var(--spacing-extra-small); }
@@ -841,6 +882,7 @@
   .ml5-l { margin-left: var(--spacing-extra-large); }
   .ml6-l { margin-left: var(--spacing-extra-extra-large); }
   .ml7-l { margin-left: var(--spacing-extra-extra-extra-large); }
+  .mla-l { margin-left: auto; }
 
   .mr0-l { margin-right: var(--spacing-none); }
   .mr1-l { margin-right: var(--spacing-extra-small); }
@@ -850,6 +892,7 @@
   .mr5-l { margin-right: var(--spacing-extra-large); }
   .mr6-l { margin-right: var(--spacing-extra-extra-large); }
   .mr7-l { margin-right: var(--spacing-extra-extra-extra-large); }
+  .mra-l { margin-right: auto; }
 
   .mb0-l { margin-bottom: var(--spacing-none); }
   .mb1-l { margin-bottom: var(--spacing-extra-small); }
@@ -859,6 +902,7 @@
   .mb5-l { margin-bottom: var(--spacing-extra-large); }
   .mb6-l { margin-bottom: var(--spacing-extra-extra-large); }
   .mb7-l { margin-bottom: var(--spacing-extra-extra-extra-large); }
+  .mba-l { margin-bottom: auto; }
 
   .mt0-l { margin-top: var(--spacing-none); }
   .mt1-l { margin-top: var(--spacing-extra-small); }
@@ -868,6 +912,7 @@
   .mt5-l { margin-top: var(--spacing-extra-large); }
   .mt6-l { margin-top: var(--spacing-extra-extra-large); }
   .mt7-l { margin-top: var(--spacing-extra-extra-extra-large); }
+  .mta-l { margin-top: auto; }
 
   .mv0-l {
     margin-top: var(--spacing-none);
@@ -900,6 +945,10 @@
   .mv7-l {
     margin-top: var(--spacing-extra-extra-extra-large);
     margin-bottom: var(--spacing-extra-extra-extra-large);
+  }
+  .mva-l {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .mh0-l {
@@ -934,4 +983,9 @@
     margin-left: var(--spacing-extra-extra-extra-large);
     margin-right: var(--spacing-extra-extra-extra-large);
   }
+  .mha-l {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }
