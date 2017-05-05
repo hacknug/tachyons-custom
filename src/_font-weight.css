@@ -16,6 +16,7 @@
      7 = literal value 700
      8 = literal value 800
      9 = literal value 900
+     i = inherit form parent
 
    Media Query Extensions:
      -ns = not-small
@@ -35,7 +36,7 @@
 .fw7    { font-weight: 700; }
 .fw8    { font-weight: 800; }
 .fw9    { font-weight: 900; }
-
+.fwi    { font-weight: inherit; }
 
 @media (--breakpoint-not-small) {
   .normal-ns { font-weight: normal; }
@@ -49,6 +50,7 @@
   .fw7-ns    { font-weight: 700; }
   .fw8-ns    { font-weight: 800; }
   .fw9-ns    { font-weight: 900; }
+  .fwi-ns    { font-weight: inherit; }
 }
 
 @media (--breakpoint-medium) {
@@ -63,6 +65,7 @@
   .fw7-m    { font-weight: 700; }
   .fw8-m    { font-weight: 800; }
   .fw9-m    { font-weight: 900; }
+  .fwi-m    { font-weight: inherit; }
 }
 
 @media (--breakpoint-large) {
@@ -77,4 +80,5 @@
   .fw7-l    { font-weight: 700; }
   .fw8-l    { font-weight: 800; }
   .fw9-l    { font-weight: 900; }
+  .fwi-l    { font-weight: inherit; }
 }
