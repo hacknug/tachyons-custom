@@ -1,6 +1,6 @@
 {
-  "name": "tachyons-custom",
-  "version": "4.7.1",
+  "name": "tachyons-uber",
+  "version": "4.7.2",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.min.css",
@@ -9,7 +9,7 @@
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons-custom",
+  "repository": "hacknug/tachyons-custom",
   "keywords": [
     "css",
     "oocss",
@@ -36,6 +36,10 @@
     {
       "name": "john otander",
       "url": "http://johnotander.com"
+    },
+    {
+      "name": "nestor vera",
+      "url": "https://nestorvera.com"
     }
   ],
   "scripts": {
