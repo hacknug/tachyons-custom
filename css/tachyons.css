@@ -1,4 +1,4 @@
-/*! TACHYONS v4.7.2 | http://tachyons.io */
+/*! TACHYONS v4.7.3 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -978,8 +978,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .lh-solid { line-height: 1; }
-.lh-title { line-height: 1.25; }
-.lh-copy { line-height: 1.5; }
+.lh-title { line-height: 1.175; }
+.lh-copy { line-height: 1.35; }
 .lh-inherit { line-height: inherit; }
 /*
 
@@ -2482,8 +2482,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
  .lh-solid-ns { line-height: 1; }
- .lh-title-ns { line-height: 1.25; }
- .lh-copy-ns { line-height: 1.5; }
+ .lh-title-ns { line-height: 1.175; }
+ .lh-copy-ns { line-height: 1.35; }
  .lh-inherit-ns { line-height: inherit; }
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
@@ -2937,8 +2937,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
- .lh-title-m { line-height: 1.25; }
- .lh-copy-m { line-height: 1.5; }
+ .lh-title-m { line-height: 1.175; }
+ .lh-copy-m { line-height: 1.35; }
  .lh-inherit-m { line-height: inherit; }
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
@@ -3392,8 +3392,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
- .lh-title-l { line-height: 1.25; }
- .lh-copy-l { line-height: 1.5; }
+ .lh-title-l { line-height: 1.175; }
+ .lh-copy-l { line-height: 1.35; }
  .lh-inherit-l { line-height: inherit; }
  .mw-100-l { max-width: 100%; }
  .mw1-l { max-width: 1rem; }
