@@ -15,21 +15,26 @@
 .word-normal { word-break: normal; }
 .word-wrap {   word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
+/* Non standard for WebKit */
+.word-break {  word-break: break-word; }
 
 @media (--breakpoint-not-small) {
   .word-normal-ns { word-break: normal; }
   .word-wrap-ns {   word-break: break-all; }
   .word-nowrap-ns { word-break: keep-all; }
+  .word-break-ns {  word-break: break-word; }
 }
 
 @media (--breakpoint-medium) {
   .word-normal-m { word-break: normal; }
   .word-wrap-m {   word-break: break-all; }
   .word-nowrap-m { word-break: keep-all; }
+  .word-break-m {  word-break: break-word; }
 }
 
 @media (--breakpoint-large) {
   .word-normal-l { word-break: normal; }
   .word-wrap-l {   word-break: break-all; }
   .word-nowrap-l { word-break: keep-all; }
+  .word-break-l {  word-break: break-word; }
 }
