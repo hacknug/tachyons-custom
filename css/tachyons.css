@@ -1,4 +1,4 @@
-/*! TACHYONS v4.7.4 | http://tachyons.io */
+/*! TACHYONS v4.7.5 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -954,6 +954,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h-inherit { height: inherit; }
 /*
 
+   IMAGE RENDERING
+
+*/
+.ir-auto { image-rendering: auto; }
+.ir-crisp-edges { image-rendering: crisp-edges; }
+.ir-pixelated { -ms-interpolation-mode: nearest-neighbor; image-rendering: -webkit-optimize-contrast; image-rendering: -moz-crisp-edges; image-rendering: pixelated; }
+.ir-inherit { image-rendering: inherit; }
+.ir-initial { image-rendering: initial; }
+.ir-unset { image-rendering: unset; }
+/*
+
    LETTER SPACING
    Docs: http://tachyons.io/docs/typography/tracking/
 
@@ -1136,6 +1147,32 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mbm-initial { mix-blend-mode: initial; }
 .mbm-inherit { mix-blend-mode: inherit; }
 .mbm-unset { mix-blend-mode: unset; }
+/*
+
+   OBJECT FIT
+
+*/
+.of-fill { -o-object-fit: fill; object-fit: fill; }
+.of-contain { -o-object-fit: contain; object-fit: contain; }
+.of-cover { -o-object-fit: cover; object-fit: cover; }
+.of-none { -o-object-fit: none; object-fit: none; }
+.of-scale-down { -o-object-fit: scale-down; object-fit: scale-down; }
+.of-inherit { -o-object-fit: inherit; object-fit: inherit; }
+.of-initial { -o-object-fit: initial; object-fit: initial; }
+.of-unset { -o-object-fit: unset; object-fit: unset; }
+/*
+
+   OBJECT POSITION
+
+*/
+.op-center { -o-object-position: center; object-position: center; }
+.op-top { -o-object-position: top; object-position: top; }
+.op-right { -o-object-position: right; object-position: right; }
+.op-bottom { -o-object-position: bottom; object-position: bottom; }
+.op-left { -o-object-position: left; object-position: left; }
+.op-inherit { -o-object-position: inherit; object-position: inherit; }
+.op-initial { -o-object-position: initial; object-position: initial; }
+.op-unset { -o-object-position: unset; object-position: unset; }
 /*
 
     OVERFLOW
@@ -2551,6 +2588,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .min-vh-100-ns { min-height: 100vh; }
  .h-auto-ns { height: auto; }
  .h-inherit-ns { height: inherit; }
+ .ir-auto-ns { image-rendering: auto; }
+ .ir-crisp-edges-ns { image-rendering: crisp-edges; }
+ .ir-pixelated-ns { -ms-interpolation-mode: nearest-neighbor; image-rendering: -webkit-optimize-contrast; image-rendering: -moz-crisp-edges; image-rendering: pixelated; }
+ .ir-inherit-ns { image-rendering: inherit; }
+ .ir-initial-ns { image-rendering: initial; }
+ .ir-unset-ns { image-rendering: unset; }
  .tracked-ns { letter-spacing: .1em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
@@ -2610,6 +2653,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mbm-initial-ns { mix-blend-mode: initial; }
  .mbm-inherit-ns { mix-blend-mode: inherit; }
  .mbm-unset-ns { mix-blend-mode: unset; }
+ .of-fill-ns { -o-object-fit: fill; object-fit: fill; }
+ .of-contain-ns { -o-object-fit: contain; object-fit: contain; }
+ .of-cover-ns { -o-object-fit: cover; object-fit: cover; }
+ .of-none-ns { -o-object-fit: none; object-fit: none; }
+ .of-scale-down-ns { -o-object-fit: scale-down; object-fit: scale-down; }
+ .of-inherit-ns { -o-object-fit: inherit; object-fit: inherit; }
+ .of-initial-ns { -o-object-fit: initial; object-fit: initial; }
+ .of-unset-ns { -o-object-fit: unset; object-fit: unset; }
+ .op-center-ns { -o-object-position: center; object-position: center; }
+ .op-top-ns { -o-object-position: top; object-position: top; }
+ .op-right-ns { -o-object-position: right; object-position: right; }
+ .op-bottom-ns { -o-object-position: bottom; object-position: bottom; }
+ .op-left-ns { -o-object-position: left; object-position: left; }
+ .op-inherit-ns { -o-object-position: inherit; object-position: inherit; }
+ .op-initial-ns { -o-object-position: initial; object-position: initial; }
+ .op-unset-ns { -o-object-position: unset; object-position: unset; }
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
  .overflow-scroll-ns { overflow: scroll; }
@@ -3042,6 +3101,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
+ .ir-auto-m { image-rendering: auto; }
+ .ir-crisp-edges-m { image-rendering: crisp-edges; }
+ .ir-pixelated-m { -ms-interpolation-mode: nearest-neighbor; image-rendering: -webkit-optimize-contrast; image-rendering: -moz-crisp-edges; image-rendering: pixelated; }
+ .ir-inherit-m { image-rendering: inherit; }
+ .ir-initial-m { image-rendering: initial; }
+ .ir-unset-m { image-rendering: unset; }
  .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }
@@ -3101,6 +3166,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mbm-initial-m { mix-blend-mode: initial; }
  .mbm-inherit-m { mix-blend-mode: inherit; }
  .mbm-unset-m { mix-blend-mode: unset; }
+ .of-fill-m { -o-object-fit: fill; object-fit: fill; }
+ .of-contain-m { -o-object-fit: contain; object-fit: contain; }
+ .of-cover-m { -o-object-fit: cover; object-fit: cover; }
+ .of-none-m { -o-object-fit: none; object-fit: none; }
+ .of-scale-down-m { -o-object-fit: scale-down; object-fit: scale-down; }
+ .of-inherit-m { -o-object-fit: inherit; object-fit: inherit; }
+ .of-initial-m { -o-object-fit: initial; object-fit: initial; }
+ .of-unset-m { -o-object-fit: unset; object-fit: unset; }
+ .op-center-m { -o-object-position: center; object-position: center; }
+ .op-top-m { -o-object-position: top; object-position: top; }
+ .op-right-m { -o-object-position: right; object-position: right; }
+ .op-bottom-m { -o-object-position: bottom; object-position: bottom; }
+ .op-left-m { -o-object-position: left; object-position: left; }
+ .op-inherit-m { -o-object-position: inherit; object-position: inherit; }
+ .op-initial-m { -o-object-position: initial; object-position: initial; }
+ .op-unset-m { -o-object-position: unset; object-position: unset; }
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
  .overflow-scroll-m { overflow: scroll; }
@@ -3533,6 +3614,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
+ .ir-auto-l { image-rendering: auto; }
+ .ir-crisp-edges-l { image-rendering: crisp-edges; }
+ .ir-pixelated-l { -ms-interpolation-mode: nearest-neighbor; image-rendering: -webkit-optimize-contrast; image-rendering: -moz-crisp-edges; image-rendering: pixelated; }
+ .ir-inherit-l { image-rendering: inherit; }
+ .ir-initial-l { image-rendering: initial; }
+ .ir-unset-l { image-rendering: unset; }
  .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
@@ -3592,6 +3679,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mbm-initial-l { mix-blend-mode: initial; }
  .mbm-inherit-l { mix-blend-mode: inherit; }
  .mbm-unset-l { mix-blend-mode: unset; }
+ .of-fill-l { -o-object-fit: fill; object-fit: fill; }
+ .of-contain-l { -o-object-fit: contain; object-fit: contain; }
+ .of-cover-l { -o-object-fit: cover; object-fit: cover; }
+ .of-none-l { -o-object-fit: none; object-fit: none; }
+ .of-scale-down-l { -o-object-fit: scale-down; object-fit: scale-down; }
+ .of-inherit-l { -o-object-fit: inherit; object-fit: inherit; }
+ .of-initial-l { -o-object-fit: initial; object-fit: initial; }
+ .of-unset-l { -o-object-fit: unset; object-fit: unset; }
+ .op-center-l { -o-object-position: center; object-position: center; }
+ .op-top-l { -o-object-position: top; object-position: top; }
+ .op-right-l { -o-object-position: right; object-position: right; }
+ .op-bottom-l { -o-object-position: bottom; object-position: bottom; }
+ .op-left-l { -o-object-position: left; object-position: left; }
+ .op-inherit-l { -o-object-position: inherit; object-position: inherit; }
+ .op-initial-l { -o-object-position: initial; object-position: initial; }
+ .op-unset-l { -o-object-position: unset; object-position: unset; }
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
  .overflow-scroll-l { overflow: scroll; }
