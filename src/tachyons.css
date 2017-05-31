@@ -54,6 +54,7 @@
 @import './_font-weight';
 @import './_forms';
 @import './_heights';
+@import './_image-rendering';
 @import './_letter-spacing';
 @import './_line-height';
 @import './_links';
@@ -61,6 +62,8 @@
 @import './_max-widths';
 @import './_widths';
 @import './_mix-blend-modes';
+@import './_object-fit';
+@import './_object-position';
 @import './_overflow';
 @import './_position';
 @import './_opacity';
