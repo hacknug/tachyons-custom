@@ -1,4 +1,4 @@
-/*! TACHYONS v4.7.3 | http://tachyons.io */
+/*! TACHYONS v4.7.4 | http://tachyons.io */
 
 /*
  *
@@ -60,9 +60,11 @@
 @import './_lists';
 @import './_max-widths';
 @import './_widths';
+@import './_mix-blend-modes';
 @import './_overflow';
 @import './_position';
 @import './_opacity';
+@import './_pointer-events';
 @import './_rotations';
 @import './_skins';
 @import './_skins-pseudo';
